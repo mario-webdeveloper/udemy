@@ -8,10 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet"> 
+    
     <link rel="stylesheet" href="build/css/app.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
 </head>
 <body>
-    
+    <section class="descuentos container-xl">
+        <div class="row justify-content-around align-items-lg-end bg-light">
+            <div class="col-lg-4 shadow bg-white texto-descuentos">
+                <div class="p-3">
+                    <h2>Último día para disfrutar descuentos</h2>
+                    <div class="descripcion">Cursos desde 10 USD$. Utiliza el cupón 10USD Para pagar unicamente 10 USD en cualquier curso</div>
+
+                    <input 
+                        type="search"
+                        placeholder="¿Que quieres aprender?"
+                        class="form-control bg-light buscar "
+                    />
+
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <picture>
+                    <source srcset="build/img/persona1.avif" type="image/avif">
+                    <source srcset="build/img/persona1.webp" type="image/webp">
+                    <img class="img-fluid" src="build/img/persona1.png" alt="imagen persona udemy">
+                </picture>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
